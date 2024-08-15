@@ -1,0 +1,27 @@
+.product {
+  background-color: rgb(239, 239, 246);
+}
+
+@media screen and (max-width: 575px) {
+  .product {
+    background-color: rgb(255, 0, 191); /* For screens ≤ 575px */
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .product {
+    background-color: yellow; /* For screens between 576px and 767px */
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .product {
+    background-color: rgb(81, 220, 59); /* For screens between 768px and 991px */
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .product {
+    background-color: rgb(244, 244, 240); /* For screens between 992px and 1200px */
+  }
+}
